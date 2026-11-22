@@ -32,24 +32,47 @@ Pressiona ESC para cancelar o campeonato.
 
 ## Como executar
 
-### Windows — Visual Studio
+O Jogo do Galo pode ser executado de duas formas: através do executável disponibilizado no GitHub ou compilando o código-fonte no Visual Studio.
 
-1. Abrir a solução no Visual Studio.
-2. Compilar o projeto.
-3. Executar com Ctrl + F5.
+### Opção 1 — Descarregar e jogar (recomendado)
 
-### Compilação com GCC
+Esta é a forma mais simples de jogar, não sendo necessário instalar o Visual Studio.
 
-```bash
-gcc -std=c11 main.c -o jogo
-```
+1. Acede à página de [Releases do projeto](https://github.com/EnfRuiSousa/TIC-TAC-TOE_C-Language/releases).
+2. Descarrega o ficheiro `JogoDoGalo-Windows-x64.zip` da versão mais recente.
+3. Extrai o conteúdo do ficheiro ZIP para uma pasta à tua escolha.
+4. Executa o ficheiro `JogoDoGalo_C.exe`.
+5. Escolhe o formato do campeonato e começa a jogar!
 
-No Windows:
-`jogo.exe`
+**Requisitos:** Windows de 64 bits.
 
-No Linux/macOS:
-`./jogo`
+### Opção 2 — Compilar e executar através do Visual Studio
 
+Esta opção destina-se a quem pretende explorar o código-fonte, modificar o jogo ou compilá-lo.
+
+1. Descarrega o código-fonte através de **Code → Download ZIP** ou clona o repositório com Git.
+2. Extrai os ficheiros, caso tenhas descarregado o ZIP.
+3. Abre o ficheiro `JogoDoGalo_C.slnx` no Visual Studio.
+4. Seleciona a configuração `Release` ou `Debug` e a plataforma `x64`.
+5. Compila o projeto através de **Build → Build Solution** (`Ctrl + Shift + B`).
+6. Executa o jogo pressionando `Ctrl + F5`.
+
+**Requisitos:** Visual Studio com os componentes de desenvolvimento para C/C++ instalados.
+
+---
+
+## Controlos
+
+O jogo é controlado através do teclado numérico:
+
+| 7 | 8 | 9 |
+|:---:|:---:|:---:|
+| 4 | 5 | 6 |
+| 1 | 2 | 3 |
+
+Não é necessário pressionar Enter depois de escolher uma casa.
+
+Pressiona **ESC** para cancelar o campeonato e regressar ao menu.
 ## Tecnologias
 
 - Linguagem C
