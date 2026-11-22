@@ -15,18 +15,20 @@ colorida no terminal e adversário controlado pelo computador.
 - Marcador do campeonato.
 - Possibilidade de iniciar um novo campeonato.
 
+
 ## Controlos
 
-7 | 8 | 9
---|---|--
-4 | 5 | 6
---|---|--
-1 | 2 | 3
+Utiliza o teclado numérico para escolher a casa:
 
-Utilizar as teclas numéricas para escolher uma casa.
-Não é necessário pressionar Enter.
+| 7 | 8 | 9 |
+|:---:|:---:|:---:|
+| 4 | 5 | 6 |
+| 1 | 2 | 3 |
 
-ESC permite cancelar o campeonato.
+Não é necessário pressionar Enter depois de escolher uma casa.
+
+Pressiona ESC para cancelar o campeonato.
+
 
 ## Como executar
 
