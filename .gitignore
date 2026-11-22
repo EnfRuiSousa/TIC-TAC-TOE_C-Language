@@ -1,0 +1,28 @@
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+
+# Pastas de compilacao
+Debug/
+Release/
+x64/
+x86/
+
+# Ficheiros gerados pela compilacao
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog/
+*.log
+*.exe
+
+# Ficheiros temporarios
+*.tmp
+*.bak
+.DS_Store
